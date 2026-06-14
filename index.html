@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denta Vita</title>
+  <link rel="stylesheet" href="css/strona_glowna.css">
+</head>
+<body>
+  <main class="page">
+    <header class="topbar">
+      <h1 class="sr-only">Denta Vita</h1>
+      <div class="brand-row">
+        <div>
+          <img src="img/logo.png" alt="Logo firmy">
+        </div>
+
+        <nav class="nav" aria-label="Menu">
+          <a href="#">Oferta</a>
+          <a href="podstrony/cennik.html">Cennik</a>
+          <a href="#">O Nas</a>
+          <a href="podstrony/Kontakt.html">Kontakt</a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="block" id="oferta">
+      <div class="product-slider">
+        <input class="slider-radio" type="radio" name="produkty" id="prod-1" checked>
+        <input class="slider-radio" type="radio" name="produkty" id="prod-2">
+        <input class="slider-radio" type="radio" name="produkty" id="prod-3">
+
+        <div class="slider-viewport">
+          <div class="slides-track">
+            <div class="product-slide">
+              <div class="slide-head">
+                <div>50 zł</div>
+                <div>Szczoteczka do zębów OSP care</div>
+              </div>
+              <div>
+                <img src="img/szcoteczka1.png" alt="Szczoteczka do zębów OSP care">
+              </div>
+            </div>
+
+            <div class="product-slide">
+              <div class="slide-head">
+                <div>39 zł</div>
+                <div>Pasta wybielająca premium</div>
+              </div>
+              <div>
+                <img src="img/pasta2.png" alt="Pasta wybielająca premium">
+              </div>
+            </div>
+
+            <div class="product-slide">
+              <div class="slide-head">
+                <div>25 zł</div>
+                <div>Nici dentystyczne</div>
+              </div>
+              <div>
+                <img src="img/nici3.png" alt="Nici dentystyczne">
+              </div>
+            </div>
+          </div>
+
+          <label class="slider-arrow prev prev-1" for="prod-3"><span class="sr-only">Poprzedni slajd</span><span aria-hidden="true">‹</span></label>
+          <label class="slider-arrow next next-1" for="prod-2"><span class="sr-only">Następny slajd</span><span aria-hidden="true">›</span></label>
+          <label class="slider-arrow prev prev-2" for="prod-1"><span class="sr-only">Poprzedni slajd</span><span aria-hidden="true">‹</span></label>
+          <label class="slider-arrow next next-2" for="prod-3"><span class="sr-only">Następny slajd</span><span aria-hidden="true">›</span></label>
+          <label class="slider-arrow prev prev-3" for="prod-2"><span class="sr-only">Poprzedni slajd</span><span aria-hidden="true">‹</span></label>
+          <label class="slider-arrow next next-3" for="prod-1"><span class="sr-only">Następny slajd</span><span aria-hidden="true">›</span></label>
+        </div>
+
+        <div class="slider-dots" role="group" aria-label="Wskaźniki slajdera">
+          <label for="prod-1"><span class="sr-only">Slajd 1</span></label>
+          <label for="prod-2"><span class="sr-only">Slajd 2</span></label>
+          <label for="prod-3"><span class="sr-only">Slajd 3</span></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="block blue-box two-cols" id="onas">
+      <div class="panel media-panel">
+        <img src="img/o_nas.png" alt="Zdjęcie zęba">
+      </div>
+      <div class="panel text-panel" style="font-size: 25px;">
+        DentoVita to Krakowski gabinet stomatologiczny z 8-letnim doświadczeniem. Zadbamy o twoje zęby z najwyższą starannością, używając najnowszego sprzętu.
+      </div>
+    </div>
+
+    <div class="block blue-box" id="cennik">
+      <div class="title-box">Usługi</div>
+      <div>
+        <div class="service">
+          <div>Wybielanie zębów</div>
+          <div>od 299 zł</div>
+        </div>
+        <div class="service">
+          <div>Skaling i piaskowanie</div>
+          <div>od 180 zł</div>
+        </div>
+        <div class="service">
+          <div>Leczenie Kanałowe</div>
+          <div>od 450 zł</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="block blue-box two-cols opinions">
+      <div class="opinion-left">
+        <div class="title-box">Opinie</div>
+        <div class="panel text-panel">Bardzo profesjonalna obsługa i szybkie terminy - Ania.</div>
+      </div>
+      <div class="panel media-panel">
+        <img src="img/klient.png" alt="Zdjęcie osoby wystawiającej opinię">
+      </div>
+    </div>
+
+    <footer class="footer" id="kontakt">
+      <div>
+        <div>
+          <h4 class="title-box">Partnerzy</h4>
+          <div class="partner-logos">
+            <div class="partner-logo">Mediaco</div>
+            <div class="partner-logo">Clean Dent</div>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="title-box" >Kontakt + Adres</h4>
+          <div class="contact-list">
+            tel: 123&nbsp;&nbsp;456&nbsp;891<br><br>
+            e-mail: <a href="mailto:DentoVita@gmail.com">DentoVita@gmail.com</a><br><br>
+            Adres: szwedzka 27
+          </div>
+        </div>
+
+        <div>
+          <h4 class="title-box">Social media</h4>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/zslkrakow/?locale=pl_PL"><img alt="Facebook" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PHJlY3Qgd2lkdGg9JzY0JyBoZWlnaHQ9JzY0JyByeD0nMTInIGZpbGw9JyMzYjU5OTgnLz48cGF0aCBkPSdNMzggMjJoNnYtOGgtNmMtNi4xIDAtMTAgMy44LTEwIDEwdjZoLTZ2OGg2djE4aDhWMzhoNmwxLThoLTd2LTVjMC0yLjEuNS0zIDItM3onIGZpbGw9J3doaXRlJy8+PC9zdmc+"></a>
+            <a href="https://www.instagram.com/zslkrakowsu/"><img alt="Instagram" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCA2NCA2NCc+PHJlY3Qgd2lkdGg9JzY0JyBoZWlnaHQ9JzY0JyByeD0nMTInIGZpbGw9J3VybCgjZyknLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9J2cnIHgxPScwJyB5MT0nMCcgeDI9JzEnIHkyPScxJz48c3RvcCBvZmZzZXQ9JzAlJyBzdG9wLWNvbG9yPScjNjIzQUY4Jy8+PHN0b3Agb2Zmc2V0PSc0NSUnIHN0b3AtY29sb3I9JyNFOTNGN0EnLz48c3RvcCBvZmZzZXQ9JzEwMCUnIHN0b3AtY29sb3I9JyNGQ0FGNDUnLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PScxNicgeT0nMTYnIHdpZHRoPSczMicgaGVpZ2h0PSczMicgcng9JzEwJyBmaWxsPSdub25lJyBzdHJva2U9J3doaXRlJyBzdHJva2Utd2lkdGg9JzQnLz48Y2lyY2xlIGN4PSczMicgY3k9JzMyJyByPSc5JyBmaWxsPSdub25lJyBzdHJva2U9J3doaXRlJyBzdHJva2Utd2lkdGg9JzQnLz48Y2lyY2xlIGN4PSc0MycgY3k9JzIxJyByPSczLjUnIGZpbGw9J3doaXRlJy8+PC9zdmc+"></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
